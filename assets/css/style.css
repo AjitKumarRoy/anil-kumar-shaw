@@ -238,3 +238,30 @@ img {
     border-radius: 100px;
     font-size: 24px;
 }
+
+
+
+
+
+#moveToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    background-color: #555;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+}
+
+#moveToTopBtn i {
+    font-size: 24px; /* Adjust icon size */
+}
+
+#moveToTopBtn:hover {
+    background-color: #333;
+}
